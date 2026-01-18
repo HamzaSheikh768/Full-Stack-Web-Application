@@ -6,7 +6,7 @@ A professional full-stack todo application with Next.js frontend featuring publi
 
 - 🚀 Next.js 16+ with App Router for modern web development
 - 🔓 Public access - no login required to use the application
-- 💾 Local storage persistence for tasks and preferences
+- 💾 Database integration (PostgreSQL / Neon) storage persistence for tasks and preferences
 - 🎨 Dark-first theme with #000000 background, #2563EB blue accents, and #FFFFFF white text
 - 🌙 Smooth dark/light theme switching with next-themes
 - 📱 Responsive design for all device sizes
@@ -19,7 +19,7 @@ A professional full-stack todo application with Next.js frontend featuring publi
 ## Tech Stack
 
 - **Frontend**: Next.js 16+, React, TypeScript, Tailwind CSS, next-themes
-- **State Management**: Zustand with persistence
+- **State Management**: Database integration (PostgreSQL / Neon) with persistence
 - **Animations**: Framer Motion
 - **Drag & Drop**: dnd-kit
 - **Styling**: Tailwind CSS with custom dark-first theme
